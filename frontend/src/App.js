@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import SubscribeBox from './Components/SubscribeBox/SubscribeBox';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div>
-      <SubscribeBox />
+    <div className='app'>
+      <Footer />
     </div>
   );
 }
