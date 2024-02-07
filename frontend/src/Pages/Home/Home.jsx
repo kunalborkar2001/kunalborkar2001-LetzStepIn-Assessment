@@ -1,9 +1,9 @@
-import React from 'react'
+import "./Home.css"
 import Navigator from '../../Sections/Navigator/Navigator'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='Home'>
         <div className='homeNavigate'>
             <Navigator />
         </div>
