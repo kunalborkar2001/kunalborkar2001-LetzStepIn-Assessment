@@ -2,7 +2,7 @@ import "./Hotels.css"
 
 const Hotels = () => {
   return (
-    <div>Hotels</div>
+    <div className="Hotels"> Hotels</div>
   )
 }
 

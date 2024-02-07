@@ -2,7 +2,7 @@ import "./Property.css"
 
 const Property = () => {
   return (
-    <div>Property</div>
+    <div className="Property">Property</div>
   )
 }
 

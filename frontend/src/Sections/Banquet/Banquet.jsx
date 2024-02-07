@@ -2,7 +2,7 @@ import "./Banquet.css"
 
 const Banquet = () => {
   return (
-    <div>Banquet</div>
+    <div className="Banquet">Banquet</div>
   )
 }
 

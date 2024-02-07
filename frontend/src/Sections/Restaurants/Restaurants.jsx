@@ -2,7 +2,7 @@ import "./Restaurants.css"
 
 const Restaurants = () => {
   return (
-    <div>Restaurants</div>
+    <div className="Restaurants">Restaurants</div>
   )
 }
 

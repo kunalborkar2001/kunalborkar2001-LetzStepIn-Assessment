@@ -5,13 +5,8 @@ const SubscribeBox = () => {
     return (
         <div className="SubscribeBox">
             <h3>
-                Let's Connect
+                Click open a door to a new experience.
             </h3>
-
-            <div className="right">
-                <input type="text" placeholder="Enter your email..." />
-                <button>Subscribe</button>
-            </div>
         </div>
     )
 }

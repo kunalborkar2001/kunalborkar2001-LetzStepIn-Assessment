@@ -1,0 +1,6 @@
+.Property {
+    height: 30vh;
+    background-image: url("../../Assets/property.jpeg");
+    background-size: cover; 
+    background-position: center; 
+}

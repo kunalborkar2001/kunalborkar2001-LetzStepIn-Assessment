@@ -1,0 +1,6 @@
+.Hotels {
+    height: 30vh;
+    background-image: url("../../Assets/hotel.jpeg");
+    background-size: cover; 
+    background-position: center; 
+}

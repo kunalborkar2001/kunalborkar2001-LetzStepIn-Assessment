@@ -1,0 +1,8 @@
+.Restaurants {
+    height: 40vh;
+    width: 100%;
+    /* border: solid green  5px; */
+    background-image: url("../../Assets/pubs.jpeg");
+    background-size: cover; 
+    background-position: center; 
+}

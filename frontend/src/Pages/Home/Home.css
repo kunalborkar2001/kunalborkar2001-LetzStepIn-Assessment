@@ -1,4 +1,11 @@
 .Home {
-    height: 100vh;
+    /* height: 100vh; */
     /* border: solid  yellow; */
+    
+}
+
+.catagorySection {
+    /* height: 300px; */
+    width: 100%;
+    /* border: solid yellow 2px; */
 }

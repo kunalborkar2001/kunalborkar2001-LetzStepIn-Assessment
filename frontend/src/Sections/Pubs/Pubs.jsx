@@ -2,7 +2,9 @@ import "./Pubs.css"
 
 const Pubs = () => {
   return (
-    <div>Pubs</div>
+    <div className="Pubs">
+        <h1>PUBS</h1>
+    </div>
   )
 }
 
