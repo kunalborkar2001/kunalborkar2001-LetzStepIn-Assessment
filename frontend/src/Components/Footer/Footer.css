@@ -23,7 +23,6 @@
     color: aliceblue;
 }
 
-
 .socialMedia {
 
 }
@@ -33,7 +32,7 @@
     list-style: none;
     gap: 2vw;
     background: yellow;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 70px;
 }
 

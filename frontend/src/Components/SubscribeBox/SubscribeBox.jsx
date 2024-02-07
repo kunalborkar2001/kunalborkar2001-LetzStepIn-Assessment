@@ -1,4 +1,5 @@
 import "./SubscribeBox.css"
+import Button from '@mui/material/Button';
 
 const SubscribeBox = () => {
     return (
