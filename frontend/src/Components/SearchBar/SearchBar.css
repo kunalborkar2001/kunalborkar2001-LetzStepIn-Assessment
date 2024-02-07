@@ -6,3 +6,11 @@
 .searchBar .input-container input{
     width: 30vw;
 }
+
+
+@media (max-width: 596px) {
+    .searchBar .input-container input {
+        width: 70vw;
+    }
+   
+ }

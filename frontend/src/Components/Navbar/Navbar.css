@@ -20,6 +20,7 @@
 }
 
 .Navbar .navLeft img {
+    
     height: 100%;
 }
 
@@ -41,9 +42,40 @@
 
 @media (max-width: 735px) {
     .Navbar {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;   
         margin-bottom: 12px;
     }
 
+    .Navbar .navLeft img  {
+        position: relative;
+        top: 12px;
+        width: 100px;
+        height: 70px;
+    }
+
 }
+
+@media (max-width: 1111px) {
+    .Navbar .navRight {
+        display: none;
+    }
+    .Navbar .burgger {
+        position: relative;
+        top: 10px;
+
+    }
+ }
+
+
+ @media (max-width: 596px) {
+    .Navbar {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .Navbar .burgger {
+        align-self: flex-start;
+        margin-left: 10vh;
+        background: #b4b8ca;
+    }
+ }
