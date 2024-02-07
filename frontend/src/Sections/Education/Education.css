@@ -3,4 +3,17 @@
     background-image: url("../../Assets/education.jpeg");
     background-size: cover; 
     background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 3vw;
+    overflow: hidden;
+    
+}
+
+.Education:hover {
+    background-size: 110%; 
+    
 }

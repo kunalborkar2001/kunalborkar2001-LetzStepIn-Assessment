@@ -2,7 +2,20 @@
     height: 40vh;
     width: 100%;
     /* border: solid green  5px; */
-    background-image: url("../../Assets/pubs.jpeg");
+    background-image: url("../../Assets/restaurant.jpeg");
     background-size: cover; 
     background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 3vw;
+    overflow: hidden;
+    
+}
+
+.Restaurants:hover {
+    background-size: 110%; 
+    
 }
