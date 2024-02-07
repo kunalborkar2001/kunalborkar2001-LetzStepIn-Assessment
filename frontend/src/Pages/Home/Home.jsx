@@ -8,10 +8,11 @@ import Restaurants from "../../Sections/Restaurants/Restaurants"
 import Pubs from "../../Sections/Pubs/Pubs"
 import Banquet from "../../Sections/Banquet/Banquet"
 import Grid from '@mui/material/Unstable_Grid2';
+import ContactUs from "../../Sections/ContactUs/ContactUs"
 
 const Home = () => {
     return (
-        <div className='Home'id="Home">
+        <div className='Home'>
             <Navigator />
             <Hero />
             <div className="catagorySection" id="categorySection">
@@ -32,6 +33,7 @@ const Home = () => {
                     <Restaurants />
                 </Grid>
             </div>
+            <ContactUs />
         </div>
     )
 }

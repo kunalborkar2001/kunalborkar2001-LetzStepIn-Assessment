@@ -1,4 +1,5 @@
 import './Navbar.css'
+import Button from '@mui/material/Button';
 
 const Navbar = () => {
     return (
@@ -8,9 +9,9 @@ const Navbar = () => {
             </div>
             <div className='navRight'>
                 <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#categorySection">Category</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#Home"><Button variant="contained"  >Home</Button></a></li>
+                    <li><a href="#categorySection"><Button variant="contained" >Catagory</Button></a></li>
+                    <li><a href="#ContactUs"><Button variant="contained">Contact Us</Button></a></li>
                 </ul>
             </div>
         </div>

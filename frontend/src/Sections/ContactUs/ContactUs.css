@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+.ContactUs {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ContactUs h1 {
+    font-size: 4rem;
+    
+}
+
+.contactCard {
+
+    width: 23%;
+    background: blueviolet;
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (max-width: 1076px) {
+    .ContactUs {
+        flex-direction: column;
+    }
+    .contactCard {
+        width: 300px;
+        
+    }
+}
