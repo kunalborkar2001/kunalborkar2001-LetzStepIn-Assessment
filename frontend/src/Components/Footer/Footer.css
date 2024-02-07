@@ -7,4 +7,48 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+}
+
+.footerMid {
+    width: 75%;
+    /* border: solid yellow 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footerMid h1 {
+    color: aliceblue;
+}
+
+
+.socialMedia {
+
+}
+
+.socialMedia ul {
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    background: yellow;
+    padding: 1rem;
+    border-radius: 70px;
+}
+
+.socialMedia ul li i {
+    font-size: 2rem;
+}
+
+.socialMedia ul img {
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width: 577px) {
+    .footerMid {
+        flex-direction: column;
+    }
+
 }

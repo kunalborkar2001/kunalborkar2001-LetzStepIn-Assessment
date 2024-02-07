@@ -1,0 +1,7 @@
+.Navbar {
+    border: solid 1px red;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
