@@ -1,5 +1,5 @@
 .SubscribeBox {
-    height: 80px;
+    height: 100px;
     width: 60vw;
     border: solid blue 1px;
     display: flex;
@@ -18,12 +18,12 @@
 .SubscribeBox .right {
     width: 50%;
     display: flex;
-    
+    align-self: center;
 }
 
 .SubscribeBox input {
     width: 80%;
-    height: 30px;
+    height: 40px;
     padding-left: 20px;
     border-radius: 12px;
     border: none;
@@ -35,6 +35,8 @@
     border-radius: 20px;
     height: 30px;
     width: 100px;
+    position: relative;
+    top: 7px;
 }
 
 
@@ -43,13 +45,15 @@
         flex-direction: column;
         line-height: 1rem;
         height: 20vh;
+        padding: 12px;
     }
     .SubscribeBox .right {
         flex-direction: column;
         align-items: center;
+        gap: 12px;
     }
     .SubscribeBox input {
-        width: 200px;
+        width: 50vw;
     }
     
 }
