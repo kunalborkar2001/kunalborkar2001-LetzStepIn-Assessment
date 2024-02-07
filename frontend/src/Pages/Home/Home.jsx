@@ -11,10 +11,10 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 const Home = () => {
     return (
-        <div className='Home'>
+        <div className='Home'id="Home">
             <Navigator />
             <Hero />
-            <div className="catagorySection">
+            <div className="catagorySection" id="categorySection">
                 <Grid container spacing={2}>
                     <Pubs />
                     <Grid xs={12} md={8} lg={8}>

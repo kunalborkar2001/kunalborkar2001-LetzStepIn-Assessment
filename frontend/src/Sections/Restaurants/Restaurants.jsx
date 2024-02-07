@@ -2,7 +2,11 @@ import "./Restaurants.css"
 
 const Restaurants = () => {
   return (
-    <div className="Restaurants">Restaurants</div>
+    <div className="Restaurants">
+      <h1>
+        Restaurants
+      </h1>
+    </div>
   )
 }
 

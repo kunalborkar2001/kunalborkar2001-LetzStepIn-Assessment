@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     background: #c9c9c96e;
+    z-index: 999;
 }
 
 .Navbar .navLeft {

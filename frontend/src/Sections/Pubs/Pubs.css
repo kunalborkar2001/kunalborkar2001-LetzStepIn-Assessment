@@ -10,12 +10,13 @@
     align-items: center;
     color: white;
     letter-spacing: 2rem;
-    font-size: 3vw;
+    font-size: 2vw;
     overflow: hidden;
-    
+    cursor: pointer;
 }
 
-.Pubs:hover {
-    background-size: 110%; 
+.Pubs:hover h1 {
+    transform: scale(1.1);
+    transition: all 1s ease;
     
 }
