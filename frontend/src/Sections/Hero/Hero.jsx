@@ -1,9 +1,11 @@
 import "./Hero.css"
 
 const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
+    return (
+        <div className="Hero">
+            Hero
+        </div>
+    )
 }
 
 export default Hero

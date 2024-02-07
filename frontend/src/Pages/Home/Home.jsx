@@ -1,5 +1,6 @@
 import "./Home.css"
 import Navigator from '../../Sections/Navigator/Navigator'
+import Hero from "../../Sections/Hero/Hero"
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
         <div className='homeNavigate'>
             <Navigator />
         </div>
-        Home
+        <Hero />
 
     </div>
   )
