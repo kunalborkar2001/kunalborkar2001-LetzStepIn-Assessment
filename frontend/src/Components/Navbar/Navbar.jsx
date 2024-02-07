@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import Select from '@mui/material/Select';
 
 const Navbar = () => {
     const [burgger, setBurgger] = useState(false);
@@ -48,8 +48,8 @@ const Navbar = () => {
             </div>
 
             {burgger &&
-                <FormControl sx={{ m: 1, minWidth: 120 }} size="small" className='burgger'>
-                    <InputLabel id="demo-select-small-label">Catagory</InputLabel>
+                <FormControl sx={{ m: 1, minWidth: 60 }} size="small" className='burger'>
+                    <InputLabel id="demo-select-small-label"><i class="fa-solid fa-burger"></i></InputLabel>
                     <Select
                         labelId="demo-select-small-label"
                         id="demo-select-small"

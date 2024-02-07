@@ -60,7 +60,7 @@
     .Navbar .navRight {
         display: none;
     }
-    .Navbar .burgger {
+    .Navbar .burger {
         position: relative;
         top: 10px;
 
@@ -72,10 +72,5 @@
     .Navbar {
         flex-direction: column;
         margin-bottom: 50px;
-    }
-    .Navbar .burgger {
-        align-self: flex-start;
-        margin-left: 10vh;
-        background: #b4b8ca;
     }
  }
