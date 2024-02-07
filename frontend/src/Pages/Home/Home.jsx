@@ -3,15 +3,13 @@ import Navigator from '../../Sections/Navigator/Navigator'
 import Hero from "../../Sections/Hero/Hero"
 
 const Home = () => {
-  return (
-    <div className='Home'>
-        <div className='homeNavigate'>
+    return (
+        <div className='Home'>
             <Navigator />
+            <Hero />
+            
         </div>
-        <Hero />
-
-    </div>
-  )
+    )
 }
 
 export default Home

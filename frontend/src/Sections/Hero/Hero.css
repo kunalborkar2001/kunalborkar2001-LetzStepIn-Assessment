@@ -5,4 +5,41 @@
     background-image: url("../../Assets/heroImage.jpg");
     background-size: cover; 
     background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.Hero .heroLeft {
+    /* height: 100%; */
+    /* border: solid yellow; */
+}
+
+.Hero .heroLeft h1 {
+    font-size: 3rem;
+}
+.Hero .heroLeft p {
+    color: gray;
+}
+
+
+.Hero .heroRight {
+    /* height: 100%; */
+    /* border: solid yellow; */
+}
+.Hero .heroRight img {
+    height: 400px;
+    width: 400px;
+    border-radius: 1000px;
+    
+}
+
+@media (max-width: 1018px) { 
+    .Hero .heroRight {
+        display: none;
+    }
+    .Hero .heroLeft {
+        text-align: center;
+    }
 }
