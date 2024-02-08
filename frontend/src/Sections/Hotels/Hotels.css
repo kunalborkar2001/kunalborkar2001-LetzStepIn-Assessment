@@ -7,15 +7,27 @@
     justify-content: center;
     align-items: center;
     color: white;
-    letter-spacing: 1rem;
     font-size: 2vw;
     overflow: hidden;
     cursor: pointer;
     
 }
 
+.Hotels h1 {
+    color: white;
+    margin-left: 15px
+}
+
 .Hotels:hover h1 {
     transform: scale(1.1);
     transition: all 1s ease;
-    
+    letter-spacing: 1rem;
+}
+
+.Hotels .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+    width: 56vw !important;
+}
+
+.Hotels .css-1wz20g3  {
+    width: 56vw !important;
 }
