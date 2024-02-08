@@ -7,15 +7,26 @@
     justify-content: center;
     align-items: center;
     color: white;
-    letter-spacing: 1rem;
+    
     font-size: 2vw;
     overflow: hidden;
     cursor: pointer;
     
 }
 
+.Education h1 {
+    color: white;
+    margin-left: 15px
+}
+
 .Education:hover h1{
     transform: scale(1.1);
     transition: all 1s ease;
-    
+    letter-spacing: 1rem;
+}
+
+
+
+.Education .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+    width: 56vw;
 }

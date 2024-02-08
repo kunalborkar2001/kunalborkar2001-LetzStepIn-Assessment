@@ -26,12 +26,12 @@
     letter-spacing: 2rem;
 }
 
-.accordionCards {
+/* .accordionCards {
     display: flex;
     gap: 5vw;
-}
+} */
 
-.css-i4bv87-MuiSvgIcon-root {
+/* .css-i4bv87-MuiSvgIcon-root {
     color: white;
     font-size: 3rem !important;
 }
@@ -39,14 +39,17 @@
 .css-vubbuv {
     color: white;
     font-size: 3rem !important;
-}
+}  */
 
-
-.css-1c35hjw-MuiPaper-root-MuiAccordion-root {
-    background-color: transparent !important;
+.Pubs .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
     width: 90vw !important;
 }
-.css-1wz20g3 {
-    background-color: transparent !important;
+.Pubs .css-1wz20g3 {
     width: 90vw !important;
+}
+
+@media (max-width: 833px) {
+    .accordionCards {
+        flex-direction: column;
+    }
 }

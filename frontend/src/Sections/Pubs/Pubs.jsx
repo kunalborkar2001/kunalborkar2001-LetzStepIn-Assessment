@@ -7,7 +7,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import pub1 from "../../Assets/Pubs/pub1.jpeg"
 import pub2 from "../../Assets/Pubs/pub2.jpeg"
 import pub3 from "../../Assets/Pubs/pub3.jpeg"
-
 import "./Pubs.css";
 
 const Pubs = () => {

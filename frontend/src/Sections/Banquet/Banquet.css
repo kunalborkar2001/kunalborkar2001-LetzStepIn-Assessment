@@ -7,15 +7,19 @@
     justify-content: center;
     align-items: center;
     color: white;
-    letter-spacing: 1rem;
     font-size: 2vw;
     overflow: hidden;
     cursor: pointer;
     
 }
 
+.Banquet h1 {
+    color: white;
+    margin-left: 15px
+}
+
 .Banquet:hover h1{
     transform: scale(1.1);
     transition: all 1s ease;
-    
+    letter-spacing: 1rem;
 }
