@@ -9,12 +9,14 @@ import Pubs from "../../Sections/Pubs/Pubs"
 import Banquet from "../../Sections/Banquet/Banquet"
 import Grid from '@mui/material/Unstable_Grid2';
 import ContactUs from "../../Sections/ContactUs/ContactUs"
+import Promotion from "../../Sections/Promotion/Promotion"
 
 const Home = () => {
     return (
         <div className='Home'>
             <Navigator />
             <Hero />
+            <Promotion />
             <div className="catagorySection" id="categorySection">
                 <Grid container spacing={2}>
                     <Pubs />

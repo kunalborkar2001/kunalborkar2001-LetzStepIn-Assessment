@@ -1,0 +1,8 @@
+.Promotion {
+    margin-top: 12px;
+    height: 30vh;
+    background-image: url('../../Assets/Promotions/promotion1.png');
+    width: 100vw;
+    background-size: cover; 
+    background-position: center; ;
+}
