@@ -29,8 +29,6 @@ const Pubs = () => {
           </AccordionDetails>
         </Accordion>
 
-
-
       </div>
     </div>
   );
