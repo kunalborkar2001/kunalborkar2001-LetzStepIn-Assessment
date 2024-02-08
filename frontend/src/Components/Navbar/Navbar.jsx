@@ -6,6 +6,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [burgger, setBurgger] = useState(false);
@@ -33,9 +34,11 @@ const Navbar = () => {
 
     return (
         <div className='Navbar'>
-            <div className='navLeft'>
-                <img src="https://www.letzstepin.com/logo13.png" alt="www.letzstepin.com" />
-            </div>
+                <div className='navLeft'>
+            <Link to={"/"}>
+                    <img src="https://www.letzstepin.com/logo13.png" alt="www.letzstepin.com" />
+            </Link>
+                </div>
             <div className='NavSearchBar'>
                 <SearchBar />
             </div>

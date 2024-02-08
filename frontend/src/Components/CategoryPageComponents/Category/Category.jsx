@@ -17,7 +17,7 @@ const Catagory = ({ catagoryData }) => {
     });
   
     useEffect(() => {
-      console.log(filteredData);
+      // console.log(filteredData);
       catagoryData(filteredData)
     }, [filteredData]);
   
@@ -128,7 +128,7 @@ const Catagory = ({ catagoryData }) => {
           </Accordion>
           <hr />
           {/* <br /> */}
-          <Accordion expanded={expandedArr[2]} onChange={handleExpanded(2)}>
+          <Accordion expanded={expandedArr[2]} onChange={handleExpanded(2)} className="ratingAccordion">
             <AccordionSummary>RATINGS</AccordionSummary>
             <AccordionDetails>
               {[5, 4, 3, 2, 1].map((rating) => (

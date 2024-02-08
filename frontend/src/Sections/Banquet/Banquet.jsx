@@ -5,6 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import banquet1 from "../../Assets/Banquet/banquet1.jpeg"
 import "./Banquet.css"
+import { Link } from "react-router-dom";
 
 const Banquet = () => {
   return (
@@ -19,10 +20,11 @@ const Banquet = () => {
             <h1>Banquet</h1>
           </AccordionSummary>
           <AccordionDetails className='accordionCards'>
-            <SlidingCard image={banquet1}/>
+          <Link to={"/category"}> <SlidingCard image={banquet1} /></Link>
           </AccordionDetails>
         </Accordion>
       </div>
+      
     </div>
   )
 }
