@@ -10,66 +10,66 @@ import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
 import './Category.css'
 
 const Catagory = ({ catagoryData }) => {
-    const [filteredData, setFilteredData] = useState({
-      city: [],
-      range: '',
-      rating: [],
+  const [filteredData, setFilteredData] = useState({
+    city: [],
+    range: '',
+    rating: [],
+  });
+
+  useEffect(() => {
+    // console.log(filteredData);
+    catagoryData(filteredData)
+  }, [filteredData]);
+
+  const handleBrand = (city) => {
+    setFilteredData((prevData) => {
+      const isBrandSelected = prevData.city.includes(city);
+      const updatedBrand = isBrandSelected
+        ? prevData.city.filter((selectedBrand) => selectedBrand !== city)
+        : [...prevData.city, city];
+
+      return {
+        ...prevData,
+        city: updatedBrand,
+      };
     });
-  
-    useEffect(() => {
-      // console.log(filteredData);
-      catagoryData(filteredData)
-    }, [filteredData]);
-  
-    const handleBrand = (city) => {
-      setFilteredData((prevData) => {
-        const isBrandSelected = prevData.city.includes(city);
-        const updatedBrand = isBrandSelected
-          ? prevData.city.filter((selectedBrand) => selectedBrand !== city)
-          : [...prevData.city, city];
-  
-        return {
-          ...prevData,
-          city: updatedBrand,
-        };
-      });
-    };
-  
-    const handleRange = (range) => {
-      setFilteredData((prevData) => {
-        return {
-          ...prevData,
-          range,
-        };
-      });
-    };
-  
-    const handleRating = (rating) => {
-      setFilteredData((prevData) => {
-        const isRatingSelected = prevData.rating.includes(rating);
-        const updatedRating = isRatingSelected
-          ? prevData.rating.filter((selectedRating) => selectedRating !== rating)
-          : [...prevData.rating, rating];
-  
-        return {
-          ...prevData,
-          rating: updatedRating,
-        };
-      });
-    };
-  
-    const [expandedArr, setExpanded] = useState([true, true, true]);
-    const handleExpanded = (i) => () => {
-      const newExpandedArr = [...expandedArr];
-      newExpandedArr[i] = !newExpandedArr[i];
-      setExpanded(newExpandedArr);
-    };
-  
-    return (
-      <div className="Category">
-        <AccordionGroup disableDivider className= "accordiongroup" style={{display : "flex", width : "100%"}}>
-          <div className="kunal">
-  
+  };
+
+  const handleRange = (range) => {
+    setFilteredData((prevData) => {
+      return {
+        ...prevData,
+        range,
+      };
+    });
+  };
+
+  const handleRating = (rating) => {
+    setFilteredData((prevData) => {
+      const isRatingSelected = prevData.rating.includes(rating);
+      const updatedRating = isRatingSelected
+        ? prevData.rating.filter((selectedRating) => selectedRating !== rating)
+        : [...prevData.rating, rating];
+
+      return {
+        ...prevData,
+        rating: updatedRating,
+      };
+    });
+  };
+
+  const [expandedArr, setExpanded] = useState([true, true, true]);
+  const handleExpanded = (i) => () => {
+    const newExpandedArr = [...expandedArr];
+    newExpandedArr[i] = !newExpandedArr[i];
+    setExpanded(newExpandedArr);
+  };
+
+  return (
+    <div className="Category">
+      <AccordionGroup disableDivider className="accordiongroup" style={{ display: "flex", width: "100%" }}>
+        <div className="kunal">
+
           <Accordion expanded={expandedArr[0]} onChange={handleExpanded(0)}>
             <AccordionSummary>City</AccordionSummary>
             <AccordionDetails>
@@ -78,7 +78,7 @@ const Catagory = ({ catagoryData }) => {
                   value="Mumbai"
                   onChange={() => handleBrand("Mumbai")}
                   checked={filteredData.city.includes("Mumbai")}
-                  size="small" 
+                  size="small"
                 />
                 Mumbai
               </div>
@@ -87,18 +87,18 @@ const Catagory = ({ catagoryData }) => {
                   value="Pune"
                   onChange={() => handleBrand("Pune")}
                   checked={filteredData.city.includes("Pune")}
-                  size="small" 
+                  size="small"
                 />
                 Pune
               </div>
             </AccordionDetails>
           </Accordion>
           <hr />
-  
-          
+
+
           {/* <br /> */}
-          
-  
+
+
           <Accordion expanded={expandedArr[1]} onChange={handleExpanded(1)}>
             <AccordionSummary>PRICE RANGE</AccordionSummary>
             <AccordionDetails>
@@ -106,24 +106,26 @@ const Catagory = ({ catagoryData }) => {
                 <Checkbox
                   icon={<RadioButtonUncheckedIcon />}
                   checkedIcon={<RadioButtonCheckedIcon />}
-                  value="0-10000"
-                  onChange={() => handleRange("0-10000")}
-                  checked={filteredData.range === "0-10000"}
-                  size="small" 
+                  value="All"
+                  onChange={() => handleRange("All")}
+                  checked={filteredData.range === "All"}
+                  size="small"
                 />
-                Under 10000
+                All
               </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <Checkbox
-                  icon={<RadioButtonUncheckedIcon />}
-                  checkedIcon={<RadioButtonCheckedIcon />}
-                  value="10000-30000"
-                  onChange={() => handleRange("10000-30000")}
-                  checked={filteredData.range === "10000-30000"}
-                  size="small" 
-                />
-                 10000 - 30000
-              </div>
+              {["0-10000", "10000-30000", "30000-50000", "50000-100000"].map((option) => (
+                <div key={option} style={{ display: "flex", alignItems: "center" }}>
+                  <Checkbox
+                    icon={<RadioButtonUncheckedIcon />}
+                    checkedIcon={<RadioButtonCheckedIcon />}
+                    value={option}
+                    onChange={() => handleRange(option)}
+                    checked={filteredData.range === option}
+                    size="small"
+                  />
+                  {option}
+                </div>
+              ))}
             </AccordionDetails>
           </Accordion>
           <hr />
@@ -140,7 +142,7 @@ const Catagory = ({ catagoryData }) => {
                     value={rating}
                     onChange={() => handleRating(rating)}
                     checked={filteredData.rating.includes(rating)}
-                    size="small" 
+                    size="small"
                   />
                   <Rating
                     name="simple-controlled"
@@ -151,10 +153,10 @@ const Catagory = ({ catagoryData }) => {
               ))}
             </AccordionDetails>
           </Accordion>
-          </div>
-        </AccordionGroup>
-      </div>
-    );
-  };
-  
-  export default Catagory;
+        </div>
+      </AccordionGroup>
+    </div>
+  );
+};
+
+export default Catagory;
