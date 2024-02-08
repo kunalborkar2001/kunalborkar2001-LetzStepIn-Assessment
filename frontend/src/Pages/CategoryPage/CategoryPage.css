@@ -1,0 +1,22 @@
+.CategoryPage {
+    padding: 4vh;
+}
+
+.CategoryPage .result {
+    margin-bottom: 12px;
+}
+
+.CategoryPage .sections  {
+    display: flex;
+    gap: 3vw;
+}
+
+
+
+
+@media (max-width: 975px) {
+    .CategoryPage .sections {
+        flex-direction: column;
+    }
+
+}

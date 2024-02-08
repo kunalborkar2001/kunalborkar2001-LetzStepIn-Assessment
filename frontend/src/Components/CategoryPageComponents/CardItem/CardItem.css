@@ -1,0 +1,92 @@
+.item {
+    
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 230px;
+}
+
+.item img {
+    height: 350px;
+    width: 100%;
+
+}
+
+.item p {
+    font-size: 1.2rem;
+    margin: 6px 0px
+}
+
+.item .item-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item .item-price-new {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item-price-old {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.rating {
+    display: flex;
+}
+
+
+#heart {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#heart.red {
+    color: red;
+}
+
+.item .viewproduct {
+    display: none;
+    color: whitesmoke;
+    background: rgba(5, 130, 232, 0.614);
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 93.09%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size: .9rem;
+    word-spacing: .3rem;
+    
+}
+
+.item:hover .viewproduct {
+    display: block; /* Show the viewproduct element on hover */
+    
+}
+
+.imgproduct {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+}
+
+.viewproduct h2  {
+    margin-top: 7px;
+}
