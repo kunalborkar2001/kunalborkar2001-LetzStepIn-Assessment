@@ -20,7 +20,7 @@ const Banquet = () => {
             <h1>Banquet</h1>
           </AccordionSummary>
           <AccordionDetails className='accordionCards'>
-          <Link to={"/category"}> <SlidingCard image={banquet1} /></Link>
+          <Link style={{ textDecoration: 'none', color: 'inherit' }} to={"/category"}> <SlidingCard image={banquet1} /></Link>
           </AccordionDetails>
         </Accordion>
       </div>
