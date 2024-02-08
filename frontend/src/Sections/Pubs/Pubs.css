@@ -1,5 +1,5 @@
 .Pubs {
-    height: 40vh;
+    min-height: 70vh;
     width: 100%;
     /* border: solid green  5px; */
     background-image: url("../../Assets/pubs.jpeg");
@@ -8,15 +8,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    letter-spacing: 2rem;
+    
     font-size: 2vw;
     overflow: hidden;
     cursor: pointer;
 }
 
+.Pubs h1 {
+    color: white;
+}
+
 .Pubs:hover h1 {
     transform: scale(1.1);
     transition: all 1s ease;
-    
+    letter-spacing: 2rem;
+}
+
+.accordionCards {
+    display: flex;
+    gap: 5vw;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    color: white;
+    font-size: 3rem !important;
+}
+
+.css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+    background-color: transparent !important;
 }

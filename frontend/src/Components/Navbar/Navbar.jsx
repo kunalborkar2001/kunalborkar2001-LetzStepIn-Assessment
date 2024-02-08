@@ -41,9 +41,9 @@ const Navbar = () => {
             </div>
             <div className='navRight'>
                 <ul>
-                    <li><a href="#Home"><Button variant="contained">Home</Button></a></li>
-                    <li><a href="#categorySection"><Button variant="contained">Catagory</Button></a></li>
-                    <li><a href="#ContactUs"><Button variant="contained">Contact Us</Button></a></li>
+                    <li><a href="#Home"><Button variant="contained" size='small'>Home</Button></a></li>
+                    <li><a href="#categorySection"><Button variant="contained" size='small'>Catagory</Button></a></li>
+                    <li><a href="#ContactUs"><Button variant="contained" size='small'>Contact Us</Button></a></li>
                 </ul>
             </div>
 

@@ -1,0 +1,17 @@
+.sliding-container {
+    display: flex;
+    overflow: hidden;
+    height: 255px; /* Adjust as per your image height */
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .slide.active {
+    transform: translateX(-100%);
+  }
+  
