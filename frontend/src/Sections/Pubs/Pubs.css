@@ -48,8 +48,3 @@
     width: 90vw !important;
 }
 
-@media (max-width: 833px) {
-    .accordionCards {
-        flex-direction: column;
-    }
-}

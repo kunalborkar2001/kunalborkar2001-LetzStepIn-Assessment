@@ -62,3 +62,9 @@ code {
   display: flex;
   gap: 5vw;
 }
+
+@media (max-width: 833px) {
+  .accordionCards {
+      flex-direction: column;
+  }
+}
