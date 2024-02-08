@@ -7,6 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { Link } from 'react-router-dom';
+import Chip from '@mui/material/Chip';
 
 const Navbar = () => {
     const [burgger, setBurgger] = useState(false);
@@ -44,10 +45,10 @@ const Navbar = () => {
             </div>
             <div className='navRight'>
                 <ul>
-                    <li><a href="#Home"><Button variant="contained" size='small'>Home</Button></a></li>
-                    <li><a href="#categorySection"><Button variant="contained" size='small'>Catagory</Button></a></li>
-                    <li><a href="#ContactUs"><Button variant="contained" size='small'>Contact Us</Button></a></li>
-                    <li><a href="#ContactUs"><Button variant="contained" size='small'>Sign In</Button></a></li>
+                    <li><Chip style={{ textDecoration: 'none', color: 'inherit' }} label="Home" component="a" href="#Home" clickable /></li>
+                    <li><Chip style={{ textDecoration: 'none', color: 'inherit' }} label="Catagory" component="a" href="#categorySection" clickable /></li>
+                    <li><Chip style={{ textDecoration: 'none', color: 'inherit' }} label="Contact Us" component="a" href="#ContactUs" clickable /></li>
+                    <li><a href="#!"><Button variant="contained" size='small'>Sign In</Button></a></li>
 
                 </ul>
             </div>

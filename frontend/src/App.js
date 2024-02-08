@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import CategoryPage from './Pages/CategoryPage/CategoryPage';
 
 function App() {
+  
   return (
     <div className='app' id="Home">
       <Navbar />
