@@ -1,5 +1,5 @@
 .Education {
-    height: 30vh;
+    min-height: 70vh;
     background-image: url("../../Assets/education.jpeg");
     background-size: cover; 
     background-position: center; 

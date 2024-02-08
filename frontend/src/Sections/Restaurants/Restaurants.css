@@ -1,5 +1,5 @@
 .Restaurants {
-    height: 40vh;
+    min-height: 70vh;
     width: 100%;
     /* border: solid green  5px; */
     background-image: url("../../Assets/restaurant.jpeg");

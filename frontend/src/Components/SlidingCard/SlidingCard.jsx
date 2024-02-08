@@ -27,7 +27,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function SlidingCard() {
+export default function SlidingCard({image}) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -53,7 +53,7 @@ export default function SlidingCard() {
       <CardMedia
         component="img"
         height="194"
-        image= {heroImage}
+        image= {image}
         alt="Paella dish"
       />
       <CardContent>

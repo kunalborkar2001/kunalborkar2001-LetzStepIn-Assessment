@@ -44,6 +44,8 @@ const Navbar = () => {
                     <li><a href="#Home"><Button variant="contained" size='small'>Home</Button></a></li>
                     <li><a href="#categorySection"><Button variant="contained" size='small'>Catagory</Button></a></li>
                     <li><a href="#ContactUs"><Button variant="contained" size='small'>Contact Us</Button></a></li>
+                    <li><a href="#ContactUs"><Button variant="contained" size='small'>Sign In</Button></a></li>
+
                 </ul>
             </div>
 
@@ -62,6 +64,7 @@ const Navbar = () => {
                         <MenuItem value={10}><a href="#Home">Home</a></MenuItem>
                         <MenuItem value={20}><a href="#categorySection">categorySection</a></MenuItem>
                         <MenuItem value={30}><a href="#ContactUs">ContactUs</a></MenuItem>
+                        <MenuItem value={40}><a href="#!">Sign In</a></MenuItem>
                     </Select>
                 </FormControl>
             }

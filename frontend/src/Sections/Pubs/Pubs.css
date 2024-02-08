@@ -1,4 +1,5 @@
 .Pubs {
+    margin-top: 20px;
     min-height: 70vh;
     width: 100%;
     /* border: solid green  5px; */
@@ -16,6 +17,7 @@
 
 .Pubs h1 {
     color: white;
+    margin-left: 15px
 }
 
 .Pubs:hover h1 {
@@ -42,7 +44,9 @@
 
 .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
     background-color: transparent !important;
+    width: 90vw !important;
 }
 .css-1wz20g3 {
     background-color: transparent !important;
+    width: 90vw !important;
 }
