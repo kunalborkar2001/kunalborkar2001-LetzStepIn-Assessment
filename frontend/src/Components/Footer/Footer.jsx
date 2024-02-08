@@ -13,10 +13,10 @@ const Footer = () => {
         <h1>LetzStepIn</h1>
         <div className="socialMedia">
           <ul>
-            <li><img src={instagram} alt="Instagramimg" /></li>
-            <li><img src={facebook} alt="Instagramimg" /></li>
-            <li><img src={twitter} alt="Instagramimg" /></li>
-            <li><img src={linkedin} alt="Instagramimg" /></li>
+            <li><a target="_blank" href="https://www.instagram.com/i_am_kunalborkar/"><img src={instagram} alt="Instagramimg" /></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/kunal.borkar.9849/"><img src={facebook} alt="Instagramimg" /></a></li>
+            <li><a target="_blank" href="https://twitter.com/KunalBo14215428"><img src={twitter} alt="Instagramimg" /></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/kunal-borkar-195a3a213/"><img src={linkedin} alt="Instagramimg" /></a></li>
           </ul>
         </div>
       </div>

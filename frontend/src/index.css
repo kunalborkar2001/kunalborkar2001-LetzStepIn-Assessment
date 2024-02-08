@@ -1,70 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,600&display=swap');
 
-html {
-  scroll-behavior: smooth;
-  /* Enable smooth scrolling behavior for the whole page */
+  html {
+    scroll-behavior: smooth;
+    /* Enable smooth scrolling behavior for the whole page */
 
-}
-
-a {
-  text-decoration: none;
-  /* Remove underline */
-  color: inherit;
-  /* Inherit the color from parent element */
-}
-
-
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #d1d1e1c9;
-  /* font-family: 'Protest Riot', sans-serif; */
-
-}
-
-ul {
-  list-style: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
-.css-i4bv87-MuiSvgIcon-root {
-  color: white;
-  font-size: 3rem !important;
-}
-
-.css-vubbuv {
-  color: white;
-  font-size: 3rem !important;
-}
-
-
-.css-1c35hjw-MuiPaper-root-MuiAccordion-root {
-  background-color: transparent !important;
-  /* width: 90vw !important; */
-}
-.css-1wz20g3 {
-  background-color: transparent !important;
-  /* width: 90vw !important; */
-}
-
-
-.accordionCards {
-  display: flex;
-  gap: 5vw;
-}
-
-@media (max-width: 833px) {
-  .accordionCards {
-      flex-direction: column;
   }
-}
+
+  a {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit the color from parent element */
+  }
+
+
+
+  body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Noto Serif', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #d1d1e1c9;
+    /* font-family: 'Protest Riot', sans-serif; */
+
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+
+  .css-i4bv87-MuiSvgIcon-root {
+    color: white;
+    font-size: 3rem !important;
+  }
+
+  .css-vubbuv {
+    color: white;
+    font-size: 3rem !important;
+  }
+
+
+  .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+    background-color: transparent !important;
+    /* width: 90vw !important; */
+  }
+
+  .css-1wz20g3 {
+    background-color: transparent !important;
+    /* width: 90vw !important; */
+  }
+
+
+  .accordionCards {
+    display: flex;
+    gap: 5vw;
+  }
+
+  @media (max-width: 833px) {
+    .accordionCards {
+      flex-direction: column;
+    }
+  }

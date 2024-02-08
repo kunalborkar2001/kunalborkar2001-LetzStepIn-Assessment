@@ -11,7 +11,7 @@ import "./Restaurants.css"
 
 const Restaurants = () => {
   return (
-    <div className="Restaurants">
+    <div className="Restaurants" id='RestaurantsSection'>
       <div >
         <Accordion>
           <AccordionSummary

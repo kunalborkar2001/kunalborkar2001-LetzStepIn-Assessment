@@ -12,7 +12,7 @@ import "./Pubs.css";
 const Pubs = () => {
   return (
 
-    <div className="Pubs">
+    <div className="Pubs" id='PubsSection'>
       <div >
         <Accordion>
           <AccordionSummary

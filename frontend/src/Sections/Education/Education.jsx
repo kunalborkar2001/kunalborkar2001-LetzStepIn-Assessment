@@ -10,7 +10,7 @@ import education2 from "../../Assets/Education/education2.jpeg"
 
 const Education = () => {
   return (
-    <div className="Education">
+    <div className="Education" id="EducationSection">
       <div >
         <Accordion>
           <AccordionSummary

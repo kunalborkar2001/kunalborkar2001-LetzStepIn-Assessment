@@ -8,7 +8,7 @@ import "./Banquet.css"
 
 const Banquet = () => {
   return (
-    <div className="Banquet">
+    <div className="Banquet" id="BanquetSection">
       <div >
         <Accordion>
           <AccordionSummary

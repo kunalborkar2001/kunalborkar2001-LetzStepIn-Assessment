@@ -8,7 +8,7 @@ import "./Property.css"
 
 const Property = () => {
   return (
-    <div className="Property">
+    <div className="Property" id="PropertySection">
       <div >
         <Accordion>
           <AccordionSummary

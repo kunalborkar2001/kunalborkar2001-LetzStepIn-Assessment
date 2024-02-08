@@ -16,9 +16,10 @@ const Navigator = () => {
                             id="Education"
                             label="Education"
                         >
-                            <MenuItem value={10}>Universities</MenuItem>
-                            <MenuItem value={20}>Colleges</MenuItem>
-                            <MenuItem value={30}>Schools</MenuItem>
+                            <MenuItem value={10}><a href="#EducationSection">Universities</a></MenuItem>
+                            <MenuItem value={20}><a href="#EducationSection">Colleges</a></MenuItem>
+                            <MenuItem value={30}><a href="#EducationSection">Schools</a></MenuItem>
+
                         </Select>
                     </FormControl>
                 </li>
@@ -30,9 +31,10 @@ const Navigator = () => {
                             id="Hotel/Room"
                             label="Hotel/Room"
                         >
-                            <MenuItem value={10}>Hotels</MenuItem>
-                            <MenuItem value={20}>Resorts</MenuItem>
-                            <MenuItem value={30}>Bed and Breakfasts</MenuItem>
+                            <MenuItem value={10}><a href="#HotelSection">Hotels</a></MenuItem>
+                            <MenuItem value={20}><a href="#HotelSection">Resorts</a></MenuItem>
+                            <MenuItem value={30}><a href="#HotelSection">Bedand Breakfasts</a></MenuItem>
+
                         </Select>
                     </FormControl>
                 </li>
@@ -44,10 +46,11 @@ const Navigator = () => {
                             id="Property/Real-Estate"
                             label="Property/Real-Estate"
                         >
-                            <MenuItem value={10}>Apartments/Flats</MenuItem>
-                            <MenuItem value={20}>Houses</MenuItem>
-                            <MenuItem value={30}>Condominiums</MenuItem>
-                            <MenuItem value={40}>Townhouses</MenuItem>
+                            <MenuItem value={10}><a href="#PropertySection">Apartments/Flats</a></MenuItem>
+                            <MenuItem value={20}><a href="#PropertySection">Houses</a></MenuItem>
+                            <MenuItem value={30}><a href="#PropertySection">Condominiums</a></MenuItem>
+                            <MenuItem value={40}><a href="#PropertySection">Townhouses</a></MenuItem>
+
                         </Select>
                     </FormControl>
                 </li>
@@ -59,14 +62,15 @@ const Navigator = () => {
                             id="Restaurants"
                             label="Restaurants"
                         >
-                            <MenuItem value={10}>Cuisine Types (e.g., Italian, Mexican, Asian, etc.)</MenuItem>
-                            <MenuItem value={20}>Fine Dining</MenuItem>
-                            <MenuItem value={30}>Casual Dining</MenuItem>
-                            <MenuItem value={40}>Coffee Shops</MenuItem>
-                            <MenuItem value={50}>Bakeries</MenuItem>
-                            <MenuItem value={60}>Vegetarian/Vegan Options</MenuItem>
-                            <MenuItem value={70}>Family-Friendly Restaurants</MenuItem>
-                            <MenuItem value={80}>Outdoor Dining</MenuItem>
+                            <MenuItem value={10}><a href="#RestaurantsSection">Cuisine Types (e.g., Italian, Mexican, Asian, etc.)</a></MenuItem>
+                            <MenuItem value={20}><a href="#RestaurantsSection">Fine Dining</a></MenuItem>
+                            <MenuItem value={30}><a href="#RestaurantsSection">Casual Dining</a></MenuItem>
+                            <MenuItem value={40}><a href="#RestaurantsSection">Coffee Shops</a></MenuItem>
+                            <MenuItem value={50}><a href="#RestaurantsSection">Bakeries</a></MenuItem>
+                            <MenuItem value={60}><a href="#RestaurantsSection">Vegetarian/Vegan Options</a></MenuItem>
+                            <MenuItem value={70}><a href="#RestaurantsSection">Family-Friendly Restaurants</a></MenuItem>
+                            <MenuItem value={80}><a href="#RestaurantsSection">Outdoor Dining</a></MenuItem>
+
                         </Select>
                     </FormControl>
                 </li>
@@ -78,11 +82,12 @@ const Navigator = () => {
                             id="Pubs"
                             label="Pubs"
                         >
-                            <MenuItem value={10}>Bar Types (e.g., Sports Bars, Wine Bars, Brewpubs, etc.)</MenuItem>
-                            <MenuItem value={20}>Live Music Venues</MenuItem>
-                            <MenuItem value={30}>Cocktail Bars</MenuItem>
-                            <MenuItem value={40}>Dive Bars</MenuItem>
-                            <MenuItem value={50}>Pub Grub</MenuItem>
+                            <MenuItem value={10}><a href="#PubsSection">Bar Types (e.g., Sports Bars, Wine Bars, Brewpubs, etc.)</a></MenuItem>
+                            <MenuItem value={20}><a href="#PubsSection">Live Music Venues</a></MenuItem>
+                            <MenuItem value={30}><a href="#PubsSection">Cocktail Bars</a></MenuItem>
+                            <MenuItem value={40}><a href="#PubsSection">Dive Bars</a></MenuItem>
+                            <MenuItem value={50}><a href="#PubsSection">Pub Grub</a></MenuItem>
+
                         </Select>
                     </FormControl>
                 </li>
@@ -94,9 +99,10 @@ const Navigator = () => {
                             id="Banquet"
                             label="Banquet"
                         >
-                            <MenuItem value={10}>Wedding Venues</MenuItem>
-                            <MenuItem value={20}>Corporate Event Spaces</MenuItem>
-                            <MenuItem value={30}>Conference Centers</MenuItem>
+                            <MenuItem value={10}><a href="#BanquetSection">Wedding Venues</a></MenuItem>
+                            <MenuItem value={20}><a href="#BanquetSection">Corporate Event Spaces</a></MenuItem>
+                            <MenuItem value={30}><a href="#BanquetSection">Conference Centers</a></MenuItem>
+
                         </Select>
                     </FormControl>
                 </li>

@@ -9,7 +9,7 @@ import "./Hotels.css"
 
 const Hotels = () => {
   return (
-    <div className="Hotels">
+    <div className="Hotels" id="HotelSection">
       <div >
         <Accordion>
           <AccordionSummary
