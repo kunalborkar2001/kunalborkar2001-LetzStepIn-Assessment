@@ -1,76 +1,11 @@
 .Navbar {
     /* border: solid 1px red; */
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    /* height: 10vh; */
+    min-height: 10vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: sticky;
     top: 0;
-    background: #c9c9c96e;
+    background-color: rgba(255, 255, 255, 0.224);
     z-index: 999;
+    background: #d1d1e1c9;
 }
-
-.Navbar .NavSearchBar {
-    position: relative;
-}
-
-.Navbar .navLeft {
-    height: 100%;
-}
-
-.Navbar .navLeft img {
-    
-    height: 100%;
-}
-
-
-.Navbar .navRight {
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 15px;
-}
-
-.Navbar .navRight ul {
-    display: flex;
-    gap: 3vw;
-}
-
-
-
-
-@media (max-width: 735px) {
-    .Navbar {
-        /* flex-direction: column; */
-        align-items: center;   
-        margin-bottom: 12px;
-    }
-
-    .Navbar .navLeft img  {
-        position: relative;
-        top: 12px;
-        width: 100px;
-        height: 70px;
-    }
-
-}
-
-@media (max-width: 1111px) {
-    .Navbar .navRight {
-        display: none;
-    }
-    .Navbar .burger {
-        position: relative;
-        top: 10px;
-
-    }
- }
-
-
- @media (max-width: 596px) {
-    .Navbar {
-        flex-direction: column;
-        margin-bottom: 50px;
-    }
- }

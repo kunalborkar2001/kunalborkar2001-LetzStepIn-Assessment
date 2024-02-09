@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import "./Navbar.css"
+import "./SampleNavbar.css"
 import Chip from '@mui/material/Chip';
 import { Link } from 'react-router-dom';
 import SearchBar from '../SearchBar/SearchBar';
@@ -19,7 +19,7 @@ function SampleNavbar() {
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll" style={{ paddingLeft: "10px" }}>
+                    <Navbar.Collapse id="navbarScroll" style={{ paddingLeft: "20px" }}>
                         <Nav
                             className="mr-auto"
                             navbarScroll
@@ -32,7 +32,7 @@ function SampleNavbar() {
                             <Form className="d-flex mb-3 mb-md-0 me-md-3" style={{ gap: "20px" }}>
                                 <SearchBar />
                             </Form>
-                            <Button variant="contained" size='small' style={{ marginLeft: "20px"}}>Sign In</Button>
+                            <Button variant="contained" size='small' style={{ marginLeft: "20px" }}>Sign In</Button>
                         </div>
                     </Navbar.Collapse>
                 </Container>

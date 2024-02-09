@@ -1,16 +1,16 @@
 .searchBar  {
     position: relative;
-    top: 6px;
+    /* top: 6px; */
 }
 
 .searchBar .input-container input{
-    width: 30vw;
+    /* width: 400px; */
 }
-
+/* 
 
 @media (max-width: 596px) {
     .searchBar .input-container input {
         width: 70vw;
     }
    
- }
+ } */

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "./SearchBar.css"
 import { Link } from 'react-router-dom';
+import { Button } from '@mui/material';
+import Form from 'react-bootstrap/Form';
 
 const SearchBar = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -30,12 +32,9 @@ const SearchBar = () => {
             required
           />
           <Link to={searchValue.trim() !== "" ? "/category" : ""}>
-            <button
-              className="btn btn-outline-success my-2 my-sm-0"
-              type="submit"
-            >
+            <Button variant="contained" color="success" >
               Search
-            </button>
+            </Button>
           </Link>
         </form>
       </div>
