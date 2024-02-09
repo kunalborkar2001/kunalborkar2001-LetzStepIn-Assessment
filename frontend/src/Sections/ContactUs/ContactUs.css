@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
+    
 }
 
 .ContactUs h1 {
@@ -17,13 +18,14 @@
 
 .contactCard {
 
-    width: 23%;
+    /* width: 23%;
     background: blueviolet;
     border-radius: 12px;
     text-align: center;
     padding: 12px 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
+    
 
 }
 
@@ -33,7 +35,14 @@
         flex-direction: column;
     }
     .contactCard {
-        width: 300px;
+        /* width: 300px; */
         
+    }
+}
+
+
+@media (max-width: 1076px) {
+    .ContactUs h1  {
+        font-size: 2rem;
     }
 }

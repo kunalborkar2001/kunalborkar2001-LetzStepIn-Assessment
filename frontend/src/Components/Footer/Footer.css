@@ -1,7 +1,7 @@
 .footer {
     border: 1px solid black;
     width: 100vw;
-    height: 40vh;
+    /* min-height: 40vh; */
     background: #232c3d;
     position: relative;
     display: flex;
@@ -43,6 +43,19 @@
     height: 40px;
     width: 40px;
 }
+
+
+.footerEnd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footerEnd ul li p {
+    color: gray;
+}
+
 
 @media (max-width: 577px) {
     .footerMid {

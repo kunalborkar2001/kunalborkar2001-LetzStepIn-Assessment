@@ -1,3 +1,4 @@
+import ContactForm from "../../Components/ContactForm/ContactForm";
 import "./ContactUs.css"
 
 const ContactUs = () => {
@@ -15,7 +16,7 @@ const ContactUs = () => {
                 </h1>
             </div>
             <div className="contactCard">
-                <form onSubmit={handleSubmit}>
+                {/* <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="exampleInputPassword1">Full Name</label>
                         <input
@@ -48,7 +49,8 @@ const ContactUs = () => {
                         </select>
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
-                </form>
+                </form> */}
+                <ContactForm />
             </div>
         </div>
     )

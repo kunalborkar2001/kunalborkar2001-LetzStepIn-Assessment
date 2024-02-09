@@ -20,6 +20,17 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="footerEnd">
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i><h2>Head Office</h2></li>
+          <li><p>507 twin tower,</p></li>
+          <li><p>Pune, MH 411057</p></li>
+        </ul>
+        <ul>
+          <li><i className="fa-solid fa-phone"></i><h2>Contact Us</h2></li>
+          <li><p>reachus@letzstepin.com</p></li>
+        </ul>
+      </div>
     </div>
   )
 }

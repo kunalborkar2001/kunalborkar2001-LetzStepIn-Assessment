@@ -1,0 +1,67 @@
+.ContactForm {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 23px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ContactForm form {
+    margin: 2rem auto 0;
+    width: 24rem;
+    margin-bottom: 12px;
+}
+
+.ContactForm  img {
+    height: 60px;
+    width: 210px;
+    text-align: center;
+}
+
+.ContactForm form .count {
+    padding: 0.25rem 0;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    border-radius: 4px;
+}
+
+.ContactForm form div,
+.ContactForm form select {
+    margin-bottom: 1.5rem;
+    width: inherit;
+}
+
+.ContactForm form input,
+.ContactForm form select {
+    padding: 0 0.5rem;
+    width: inherit;
+    height: 2rem;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.ContactForm form input[type="submit"] {
+    height: 2.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #0971f1;
+    cursor: pointer;
+}
+
+.ContactForm form p {
+    margin-top: 0.5rem;
+    color: #ff9900;
+}
+
+@media (max-width: 462px) {
+    .ContactForm form {
+        width: 100%;
+        
+    }
+    .ContactForm {
+        margin-bottom: 5vh;
+    }
+}

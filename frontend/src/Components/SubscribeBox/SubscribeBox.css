@@ -34,5 +34,8 @@
     .SubscribeBox input {
         width: 50vw;
     }
+    .SubscribeBox  h3 {
+        font-size: 1rem;
+    }
     
 }
