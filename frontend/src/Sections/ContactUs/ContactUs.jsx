@@ -3,10 +3,7 @@ import "./ContactUs.css"
 
 const ContactUs = () => {
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle form submission here
-    };
+   
 
     return (
         <div className="ContactUs" id="ContactUs">

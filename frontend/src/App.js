@@ -4,7 +4,6 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from "./Components/Footer/Footer"
 import { Routes, Route } from "react-router-dom";
 import CategoryPage from './Pages/CategoryPage/CategoryPage';
-import SampleNavbar from './Components/SampleNavbar/SampleNavbar';
 
 function App() {
   

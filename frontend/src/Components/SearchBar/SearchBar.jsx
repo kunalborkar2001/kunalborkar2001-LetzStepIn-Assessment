@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "./SearchBar.css"
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
-import Form from 'react-bootstrap/Form';
 
 const SearchBar = () => {
   const [searchValue, setSearchValue] = useState("");

@@ -1,10 +1,8 @@
 import { useForm } from "react-cool-form";
 import "./ContactForm.css"
 
-let count = 0;
-
 export default function ContactForm() {
-    count++;
+    
 
     const { form, use } = useForm({
         defaultValues: { firstName: "", lastName: "", framework: "" },
